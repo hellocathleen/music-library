@@ -38,8 +38,8 @@ class Playlist {
       totalSec += track.duration;
     });
     return totalSec;
-    }
   }
+}
 
 class Track {
   constructor(title, rating, duration) {
